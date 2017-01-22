@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Setting up the blog!  &middot; tricky42</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="aws, hugo, s3, cloudfront, ">
+
+
+<meta property="og:title" content="Setting up the blog!  &middot; tricky42 ">
+<meta property="og:site_name" content="tricky42"/>
+<meta property="og:url" content="https://www.bucksteeg.de/post/setting-up-the-blog/" />
+<meta property="og:locale" content="en-us">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2017-01-10T00:00:00Z" />
+<meta property="og:article:modified_time" content="2017-01-10T00:00:00Z" />
+
+  
+    
+<meta property="og:article:tag" content="aws">
+    
+<meta property="og:article:tag" content="hugo">
+    
+<meta property="og:article:tag" content="s3">
+    
+<meta property="og:article:tag" content="cloudfront">
+    
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@" />
+<meta name="twitter:title" content="Setting up the blog!" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="https://www.bucksteeg.de/post/setting-up-the-blog/" />
+<meta name="twitter:domain" content="https://www.bucksteeg.de/">
+  
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Setting up the blog!",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+?rel=author"
+    },
+    "datePublished": "2017-01-10",
+    "description": "",
+    "wordCount":  975 
+  }
+</script>
+
+
+
+<link rel="canonical" href="https://www.bucksteeg.de/post/setting-up-the-blog/" />
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.bucksteeg.de/touch-icon-144-precomposed.png">
+<link href="https://www.bucksteeg.de/favicon.ico" rel="icon">
+
+<meta name="generator" content="Hugo 0.18.1" />
+
+
+
+  <link rel="stylesheet" href="https://www.bucksteeg.de/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.bucksteeg.de/assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.bucksteeg.de/assets/css/style.css">
+  <link rel="stylesheet" href="https://www.bucksteeg.de/assets/css/tomorrow-night.css">
+  <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+</head>
+<body class="bg-faded">
+    <nav class="navbar navbar-light blog-header">
+  <div class="container">
+    <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse"
+        data-target="#exCollapsingNavbar2"
+        aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+      &#9776;
+    </button>
+    <div class="collapse navbar-toggleable-md" id="exCollapsingNavbar2">
+      <a class="navbar-brand" href="https://www.bucksteeg.de/">tricky42</a>
+      <ul class="nav navbar-nav">
+        
+        
+          <li class="nav-item">
+          <a class="nav-link menu-item" href="https://www.bucksteeg.de/tags/">
+              <i class='fa fa-tags'></i>
+              <span>TAGS</span>
+          </a>
+        </li>
+        
+          <li class="nav-item">
+          <a class="nav-link menu-item" href="https://www.bucksteeg.de/categories/">
+              <i class='fa fa-folder-open'></i>
+              <span>CATEGORIES</span>
+          </a>
+        </li>
+        
+          <li class="nav-item">
+          <a class="nav-link menu-item" href="https://www.bucksteeg.de/page/recommended/">
+              <i class='fa fa-folder-open'></i>
+              <span>RECOMMENDED</span>
+          </a>
+        </li>
+        
+          <li class="nav-item">
+          <a class="nav-link menu-item" href="https://www.bucksteeg.de/page/about-me/">
+              <i class='fa fa-info-circle'></i>
+              <span>ABOUT ME</span>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container p-a-0">
+  <div class="row m-l-0 m-r-0">
+    <div class="col-xs-12 col-md-9 post-container">
+      <div>
+  
+<a href="https://www.bucksteeg.de/post/setting-up-the-blog/" itemprop="url">
+    
+      <img src="http://placehold.it/1024x200" class="img-fluid" alt="Generic responsive image">
+    
+</a>
+
+
+  <h1 class="post-title">Setting up the blog!
+</h1>
+
+  <div class="post-meta">
+  <div class="post-meta-item">
+    <i class="fa fa-calendar"></i>
+    <time datetime="2017-01-10">10 Jan, 2017</time>
+
+    
+    &middot; 5 Minute Read
+    &middot; 975 Words
+  </div>
+
+  
+      
+      
+      <div class="post-meta-item">
+          <i class="fa fa-folder-open-o"></i>
+          
+          <a class="article-category-link" href="https://www.bucksteeg.de/categories/blogging">blogging</a>
+          
+          
+      </div>
+      
+  
+
+  
+      
+      
+        <div class="post-meta-item">
+          <i class="fa fa-tags"></i>
+          
+          <a href="https://www.bucksteeg.de/tags/aws">aws</a>
+          &middot;
+          
+          <a href="https://www.bucksteeg.de/tags/hugo">hugo</a>
+          &middot;
+          
+          <a href="https://www.bucksteeg.de/tags/s3">s3</a>
+          &middot;
+          
+          <a href="https://www.bucksteeg.de/tags/cloudfront">cloudfront</a>
+          
+          
+        </div>
+      
+  
+  
+
+</div>
+
+</div>
+
+      <div class="content">
+  
+
+<h1 id="introduction">Introduction</h1>
+
+<p>In this post I describe my journey to find a neat, small solution to finally setup a small webpage and blog solution for my self. I start first to look for a small CMS solution but all the PHP based solution reminded me that a) I dont like PHP and b) I wanted to also make sure, the resulting site is easy and cheap to host. Therefore I quickly refined my requirements to static site generators and as I want to make more use of Golang, I looked for a Go based solution. I very quickly found Hugo (<a href="https://gohugo.io/">https://gohugo.io/</a>) and started reading about it and decided to give it a try ;)</p>
+
+<h1 id="installing-hugo">Installing Hugo</h1>
+
+<p>The nice thing about Golang based solutions is that they are almost always are super easy to install. But even better, Hugo can be installed using Homebrew. In this post I will only cover all the steps which are needed to get Hugo setup on my Mac with Homebrew already installed. But I will include the links to the standard install documentation of Homebrew, Hugo and any other tool I am using in the link section.</p>
+
+<pre><code>$ brew update &amp;&amp; brew install hugo
+==&gt; Downloading https://homebrew.bintray.com/bottles/hugo-0.18.1.sierra.bottle.tar.gz
+==&gt; Pouring hugo-0.18.1.sierra.bottle.tar.gz
+==&gt; Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==&gt; Summary
+🍺  /usr/local/Cellar/hugo/0.18.1: 32 files, 16.3M 
+
+</code></pre>
+
+<p>This installation even worked on the bus from Phnom Penh to Ho Chi Minh City. Now we have everything to get started with Hugo.
+So lets quickly test the installation by printing out the Hugo version:</p>
+
+<pre><code>$ hugo version
+Hugo Static Site Generator v0.18.1 BuildDate: 2016-12-30T00:12:41+07:00
+</code></pre>
+
+<p>In order the create a new site in Hugo you only have to type</p>
+
+<pre><code>$ hugo new site hugo-site
+Congratulations! Your new Hugo site is created in &lt;your path&gt;
+
+Just a few more steps and you're ready to go:
+
+1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/, or
+   create your own with the &quot;hugo new theme &lt;THEMENAME&gt;&quot; command.
+2. Perhaps you want to add some content. You can add single files
+   with &quot;hugo new &lt;SECTIONNAME&gt;/&lt;FILENAME&gt;.&lt;FORMAT&gt;&quot;.
+3. Start the built-in live server via &quot;hugo server&quot;.
+
+Visit https://gohugo.io/ for quickstart guide and full documentation.
+</code></pre>
+
+<p>Hugo creates a basic site skeleton in a new directory with the name of the site you have chosen, in my example &ldquo;hugo-site&rdquo;. Lets take a quick look on what has been created:</p>
+
+<pre><code>$ tree
+.
+├── archetypes
+├── config.toml
+├── content
+├── data
+├── layouts
+├── static
+└── themes
+</code></pre>
+
+<p>I will not go into the details, the <a href="https://gohugo.io/overview/quickstart/">Quickstart Guide</a> does a really good job, I will foucs just on the things necessary for my own site. You manage all the configuration of your site in the config.toml file. At first I was a bit irritated by the file extension. So I quickly googled TOML and after reading <a href="https://npf.io/2014/08/intro-to-toml/">Intro into TOML</a> I kind of agree as I never enjoyed writing neither JSON nor YAML, so I am in full support for TOML ;)</p>
+
+<h2 id="picking-a-theme">Picking a theme</h2>
+
+<p>All static site generators have some kind of theme mechanism to make it easy to render your content in different layouts. Hugo is no exception so I took a tour on their <a href="http://themes.gohugo.io/">Hugo THemes Overview</a>. As I am not a designer / html/css guru, I decided to go with a simplistic theme to make it easy later on to customize it later on with the support of some of my designer friends back home. I decided on using the <a href="http://themes.gohugo.io/bootstrap/">Hugo Bootstrap</a>. I <a href="https://github.com/tricky42/hugo-bootstrap">forked</a> it, as I wanted to track any changes I will do over time and potentially to contribute back. In order to use a theme you clone it into the themes directory and configure it in the config.toml file.</p>
+
+<pre><code>$ cd themes
+$ git clone https://github.com/tricky42/hugo-bootstrap
+Cloning into 'hugo-bootstrap'...
+remote: Counting objects: 522, done.
+remote: Total 522 (delta 0), reused 0 (delta 0), pack-reused 522
+Receiving objects: 100% (522/522), 2.27 MiB | 183.00 KiB/s, done.
+Resolving deltas: 100% (204/204), done.
+$ cd ..
+$ echo 'theme = &quot;hugo-bootstrap&quot;' &gt;&gt; config.toml
+</code></pre>
+
+<p><code>echo 'theme = &quot;hugo-bootstrap&quot;' &gt;&gt; config.toml</code> just adds the config line <code>theme = &quot;hugo-bootstrap</code> to the <code>config.toml</code> to configure that <code>hugo-bootstrap</code> is used for rendering from now on. Each theme can bring it&rsquo;s own configuration parameters and you normmally will find an example configuration file in the <code>exampleSite</code> directory inside of the directory of the theme you are using.</p>
+
+<p>Now everything is setup, lets start Hugo to get the content gnerated and take a look.</p>
+
+<pre><code>$ hugo -v server &amp;
+$ open http://localhost:1313
+</code></pre>
+
+<p>By starting Hugo with the verbose flag <code>-v</code> it&rsquo;s a bit more chatty which is helpful in the begining or for debugging. The server command starts Hugo in server mode which is intended to local development. In server mode Hugo watches your site directory for changes and automatically regenerates your site when needed.</p>
+
+<p>After executing <code>$ open http://localhost:1313</code> a browser window should open and display our generated site. As we haven&rsquo;t so far added a &hellip;&hellip;&hellip;.</p>
+
+<p>We can easily add a new blog post by <code>hugo new post/my-first-post.md</code>. Hugo creates in the <code>&lt;hugo-dir&gt;/content/post</code> an draft markdown file in which only a few, preconfigured frontmatter variables are included. You can start modifying this file <code>subl content/post/my-first-post.md</code> and in parallel check you browser to check on your changes. In the background Hugo (because we started it in server mode) will generate the content whenever we modify a file.</p>
+
+<h1 id="summary">Summary</h1>
+
+<p>As we are almost in Ho Chi Minh City and we have a working local setup and can check our site in our browser I think it is a good time to end this first blog post ;) The next blog post will be about how to host the generated site cheap &amp; performat.</p>
+
+<p>For convenience you cab find a shell script with all the used commands in my git repo ### LINK ####.</p>
+
+</div>
+
+      <footer>
+    
+    
+      
+        <nav><ul class="pagination">
+        
+            <li class="page-item">
+              <a href="https://www.bucksteeg.de/post/my-first-post/" title="my first post " class="page-link">
+                <span aria-hidden="true">&larr;</span>Previous
+              </a>
+            </li>
+        
+
+        
+          <li class="page-item">
+            <a href="https://www.bucksteeg.de/post/publishing-the-blog/" title="Publishing the blog!" class="page-link">
+                Next <span aria-hidden="true">&rarr;</span>
+            </a>
+          </li>
+        
+        </ul> </nav>
+      
+    
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    
+  </div>
+</footer>
+
+    </div>
+      <div class="col-xs-12 col-md-3">
+        <div class="sidebar">
+  <div class="card card-block">
+  <h4 class="card-title">RECENTS</h4>
+  <div class="card-text">
+    <div class="widget">
+      <ul id="recent-post">
+        
+        <li>
+          <div class="item-thumbnail bg-inverse">
+              <a href="https://www.bucksteeg.de/post/publishing-the-blog/" class="thumbnail">
+              
+                  
+                  <span style="background-image:url(http://placehold.it/1024x300)"
+                    alt="Publishing the blog!" class="thumbnail-image"></span>
+                  
+              
+              </a>
+          </div>
+            <div class="item-inner">
+              <p class="item-title"><a href="https://www.bucksteeg.de/post/publishing-the-blog/" class="title">Publishing the blog!</a></p>
+            </div>
+        </li>
+        
+        <li>
+          <div class="item-thumbnail bg-inverse">
+              <a href="https://www.bucksteeg.de/post/setting-up-the-blog/" class="thumbnail">
+              
+                  
+                  <span style="background-image:url(http://placehold.it/1024x200)"
+                    alt="Setting up the blog!" class="thumbnail-image"></span>
+                  
+              
+              </a>
+          </div>
+            <div class="item-inner">
+              <p class="item-title"><a href="https://www.bucksteeg.de/post/setting-up-the-blog/" class="title">Setting up the blog!</a></p>
+            </div>
+        </li>
+        
+        <li>
+          <div class="item-thumbnail bg-inverse">
+              <a href="https://www.bucksteeg.de/post/my-first-post/" class="thumbnail">
+              
+                  <span class="thumbnail-image thumbnail-none"></span>
+              
+              </a>
+          </div>
+            <div class="item-inner">
+              <p class="item-title"><a href="https://www.bucksteeg.de/post/my-first-post/" class="title">my first post</a></p>
+            </div>
+        </li>
+        
+        <li>
+          <div class="item-thumbnail bg-inverse">
+              <a href="https://www.bucksteeg.de/post/welcome/" class="thumbnail">
+              
+                  <span class="thumbnail-image thumbnail-none"></span>
+              
+              </a>
+          </div>
+            <div class="item-inner">
+              <p class="item-title"><a href="https://www.bucksteeg.de/post/welcome/" class="title">Welcome!</a></p>
+            </div>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+  
+
+
+<div class="card card-block">
+  <h4 class="card-title">CATAGORIES</h4>
+  <div class="card-text">
+    <div class="widget">
+      <ul>
+        
+        <li class="category-list-item">
+            <a href="https://www.bucksteeg.de/categories/automation">
+                automation
+            </a>
+            <span class="category-list-count">1</span>
+        </li>
+        
+        <li class="category-list-item">
+            <a href="https://www.bucksteeg.de/categories/blogging">
+                blogging
+            </a>
+            <span class="category-list-count">1</span>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+  
+
+
+
+<div class="card card-block">
+  <h4 class="card-title">TAGS</h4>
+  <div class="card-text">
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="https://www.bucksteeg.de/tags/aws">aws</a>
+            <span class="category-list-count">2</span>
+          </li>
+        
+          <li>
+            <a href="https://www.bucksteeg.de/tags/cloudfront">cloudfront</a>
+            <span class="category-list-count">1</span>
+          </li>
+        
+          <li>
+            <a href="https://www.bucksteeg.de/tags/hugo">hugo</a>
+            <span class="category-list-count">1</span>
+          </li>
+        
+          <li>
+            <a href="https://www.bucksteeg.de/tags/intro">intro</a>
+            <span class="category-list-count">1</span>
+          </li>
+        
+          <li>
+            <a href="https://www.bucksteeg.de/tags/one">one</a>
+            <span class="category-list-count">1</span>
+          </li>
+        
+          <li>
+            <a href="https://www.bucksteeg.de/tags/s3">s3</a>
+            <span class="category-list-count">2</span>
+          </li>
+        
+          <li>
+            <a href="https://www.bucksteeg.de/tags/two">two</a>
+            <span class="category-list-count">1</span>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+  
+
+
+<div class="card card-block">
+  <h4 class="card-title">TAG CLOUD</h4>
+  <p class="card-text">
+    
+        <a href="https://www.bucksteeg.de/tags/aws" class="tag tag-primary">
+        aws
+        </a>
+    
+        <a href="https://www.bucksteeg.de/tags/cloudfront" class="tag tag-primary">
+        cloudfront
+        </a>
+    
+        <a href="https://www.bucksteeg.de/tags/hugo" class="tag tag-primary">
+        hugo
+        </a>
+    
+        <a href="https://www.bucksteeg.de/tags/intro" class="tag tag-primary">
+        intro
+        </a>
+    
+        <a href="https://www.bucksteeg.de/tags/one" class="tag tag-primary">
+        one
+        </a>
+    
+        <a href="https://www.bucksteeg.de/tags/s3" class="tag tag-primary">
+        s3
+        </a>
+    
+        <a href="https://www.bucksteeg.de/tags/two" class="tag tag-primary">
+        two
+        </a>
+    
+  </p>
+</div>
+
+
+
+
+</div>
+
+      </div>
+  </div>
+</div>
+    <footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-9">
+        <p class="text-xs-center m-a-0 p-a-0">
+          &copy; 2017 Copyright &copy; 2017, Andreas Bucksteeg; all rights reserved.
+        </p>
+        <p class="text-xs-center  m-a-0 p-a-0">
+            
+          <span class="p-l-1 p-r-1">
+                <a href="https://www.bucksteeg.de/page/license/">LICENSE</a>
+              </span>
+              &middot; 
+          <span class="p-l-1 p-r-1">
+                <a href="https://www.bucksteeg.de/page/disclaimer/">DISCLAIMER</a>
+              </span>
+                
+        </p>
+
+      </div>
+    </div>
+  </div>
+</footer>
+    <script src="https://www.bucksteeg.de/assets/js/jquery.min.js"></script>
+<script src="https://www.bucksteeg.de/assets/js/tether.min.js"></script>
+<script src="https://www.bucksteeg.de/assets/js/bootstrap.min.js"></script>
+<script src="https://www.bucksteeg.de/assets/js/highlight.pack.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script src="https://www.bucksteeg.de/assets/js/script.js"></script>
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-89935545-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
+

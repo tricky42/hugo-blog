@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Two on tricky42</title>
+    <link>https://www.bucksteeg.de/tags/two/index.xml</link>
+    <description>Recent content in Two on tricky42</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Andreas Bucksteeg; all rights reserved.</copyright>
+    <atom:link href="https://www.bucksteeg.de/tags/two/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>my first post</title>
+      <link>https://www.bucksteeg.de/post/my-first-post/</link>
+      <pubDate>Sat, 07 Jan 2017 18:49:21 +0700</pubDate>
+      
+      <guid>https://www.bucksteeg.de/post/my-first-post/</guid>
+      <description>
+
+&lt;h1 id=&#34;ola-my-first-post&#34;&gt;Ola my first post&lt;/h1&gt;
+
+&lt;p&gt;tadam tadam tadam tadamtadam tadamtadam tadamtadam tadamtadam tadamtadam tadam&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

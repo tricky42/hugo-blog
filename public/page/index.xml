@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on tricky42</title>
+    <link>https://www.bucksteeg.de/page/index.xml</link>
+    <description>Recent content in Pages on tricky42</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Andreas Bucksteeg; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 07 Jan 2017 19:35:27 +0700</lastBuildDate>
+    <atom:link href="https://www.bucksteeg.de/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Recommended everything!</title>
+      <link>https://www.bucksteeg.de/page/recommended/</link>
+      <pubDate>Sat, 07 Jan 2017 19:35:27 +0700</pubDate>
+      
+      <guid>https://www.bucksteeg.de/page/recommended/</guid>
+      <description>
+
+&lt;h1 id=&#34;presentations&#34;&gt;Presentations&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Remark&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Kubernetes&lt;/td&gt;
+&lt;td&gt;[Self Hosted Kubernetes]()&lt;/td&gt;
+&lt;td&gt;xyz (CTO @ CoreOS) explains the long term goal to get to a self hosted Kubernetes and the benefits in terms of simplifying the Kubernetes system.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Kubernetes&lt;/td&gt;
+&lt;td&gt;[Prometheus &amp;hellip;.]()&lt;/td&gt;
+&lt;td&gt;xyz (CTO @ CoreOS) presents the work on [Operators]() for Prometheus to make it as simple as possible to running a Prometheus System in production. Furthermore he describes a consistent approach to monitor all elements of your environment (all Kubernets components and your own solutions which are running on top of Kubernetes) by using labels and &amp;hellip;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&#34;projects&#34;&gt;Projects&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://www.bucksteeg.de/page/about-me/</link>
+      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bucksteeg.de/page/about-me/</guid>
+      <description>&lt;p&gt;Not much drama, my name is Andreas Bucksteeg, I am 41 years old and live and work in beautiful Munich, Germany.&lt;/p&gt;
+
+&lt;p&gt;While studying Computer Sciene at the &lt;a href=&#34;www.tum.de&#34;&gt;Technical University Munich&lt;/a&gt; I co-founded &lt;a href=&#34;https://www.hybris.com&#34;&gt;hybris&lt;/a&gt;  with friends to conquer the market of commerce solutions. What started as an adventure of a few friends continued to grow and grow and grow (ok, mayor dips and crisis included ;)). Mid 2013 hybris got aquired by &lt;a href=&#34;https://www.sap.com&#34;&gt;SAP&lt;/a&gt; and continued its growth. I got the chance to start working on a new solution called &lt;a href=&#34;https://www.yaas.io&#34;&gt;YaaS&lt;/a&gt;. This is especially exciting as allowed me to learn and work with all the new tools and platforms which came up recently and which I adore.&lt;/p&gt;
+
+&lt;p&gt;I honestly think that we currently experience the most exciting time since I started to work in Computer Science.&lt;/p&gt;
+
+&lt;p&gt;Some examples of things I adore:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://unikernel.org/&#34;&gt;Unikernels&lt;/a&gt; and especially &lt;a href=&#34;https://github.com/emc-advanced-dev/unik/wiki/UniK:-Build-and-Run-Unikernels-with-Ease&#34;&gt;UniK&lt;/a&gt; for making Unikernels convenient.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cncf.io&#34;&gt;Cloud Native Computing Foundation&lt;/a&gt;,
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kubernetes.io&#34;&gt;Kubernetes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://linkerd.io/&#34;&gt;Linkerd&lt;/a&gt;, it is maybe a bit early to list it under CNCF, but I just read a few days ago that work has been started to include it as a project to CNCF.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://opentracing.io/&#34;&gt;OpenTacing&lt;/a&gt; / &lt;a href=&#34;https://zipkin.io/&#34;&gt;ZipKin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://prometheus.io/&#34;&gt;Prometheus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Golang&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Disclaimer</title>
+      <link>https://www.bucksteeg.de/page/disclaimer/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bucksteeg.de/page/disclaimer/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;card&#34;&gt;
+      &lt;div class=&#34;card-block&#34;&gt;
+        &lt;h2 class=&#34;card-title&#34;&gt;Disclaimer&lt;/h2&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;card-block&#34;&gt;
+        &lt;p class=&#34;card-text&#34;&gt;
+          Your disclaimer text here
+        &lt;/p&gt;
+
+        &lt;p class=&#34;card-text&#34;&gt;
+        NOTE:Some information in this website might be copied from other websites.
+          If you see something is your copyright or something should not belong here, please feel free to
+          &lt;a href=&#34;mailto:murali@mmrath.com&#34;&gt;contact me&lt;/a&gt;. I will remove necessary parts.
+       &lt;/p&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://www.bucksteeg.de/page/license/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bucksteeg.de/page/license/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;card&#34;&gt;
+      &lt;div class=&#34;card-block&#34;&gt;
+        &lt;h2 class=&#34;card-title&#34;&gt;LICENSE&lt;/h2&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;card-block&#34;&gt;
+        &lt;p class=&#34;card-text&#34;&gt;
+          Unless otherwise mentioned code from this blog can used as per MIT or Apache 2.0 license.
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
