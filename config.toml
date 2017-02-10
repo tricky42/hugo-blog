@@ -2,24 +2,9 @@ baseurl = "https://www.bucksteeg.de/"
 languageCode = "en-us"
 title = "tricky42"
 theme = "hugo-bootstrap"
-copyright = "Copyright (c) 2017, Andreas Bucksteeg; all rights reserved."
 canonifyurls = true
 paginate = 3
 googleAnalytics = "UA-89935545-1"
-
-[[menu.main]]
-    name = "TAGS"
-    pre = "<i class='fa fa-tags'></i>"
-    weight = -110
-    identifier = "tags"
-    url = "/tags/"
-
-[[menu.main]]
-    name = "CATEGORIES"
-    pre = "<i class='fa fa-folder-open'></i>"
-    weight = -100
-    identifier = "categories"
-    url = "/categories/"
 
 [[menu.main]]
     name = "RECOMMENDED"
@@ -41,14 +26,8 @@ googleAnalytics = "UA-89935545-1"
     identifier = "disclaimer"
     url = "/page/disclaimer/"
 
-[[menu.footer]]
-    name = "LICENSE"
-    weight = -120
-    identifier = "license"
-    url = "/page/license/"
-
 [params.widgets]
   recent_articles = true
-  categories = true
-  tags = true
-  tag_cloud = true
+  categories = false
+  tags = false
+  tag_cloud = false
