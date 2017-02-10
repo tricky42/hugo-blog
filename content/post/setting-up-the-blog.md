@@ -5,7 +5,7 @@ tags = ["aws","hugo","s3","cloudfront"]
 categories = ["blogging"]
 date = "2017-01-10"
 banner = "http://placehold.it/1024x200"
-draft = true
+draft = false
 +++
 
 

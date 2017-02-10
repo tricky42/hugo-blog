@@ -29,5 +29,5 @@ googleAnalytics = "UA-89935545-1"
 [params.widgets]
   recent_articles = true
   categories = false
-  tags = false
+  tags = true
   tag_cloud = false
