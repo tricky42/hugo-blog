@@ -94,4 +94,4 @@ We can easily add a new blog post by `hugo new post/my-first-post.md`. Hugo crea
 # Summary
 As we are almost in Ho Chi Minh City and we have a working local setup and can check our site in our browser I think it is a good time to end this first blog post ;) The next blog post will be about how to host the generated site cheap & performat. 
 
-For convenience you cab find a shell script with all the used commands in my git repo ### LINK ####.
+For convenience you can find a shell script with all the used commands in my git repo ### LINK ####.
