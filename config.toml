@@ -1,7 +1,7 @@
 baseurl = "https://www.bucksteeg.de/"
 languageCode = "en-us"
 title = "tricky42"
-theme = "hugo-bootstrap"
+theme = "hugo-bootstrap-tricky42"
 canonifyurls = true
 paginate = 3
 googleAnalytics = "UA-89935545-1"
