@@ -66,12 +66,15 @@ a {
 }
 .blog-header {
   margin-bottom: 1rem;
-  background-color: #fff !important;
+  background: url(../img/bg.jpg) center no-repeat;
+  padding-bottom: 4rem;
 }
 h1.post-title {
   text-decoration: none;
   margin-top: 0.75em;
-  margin-bottom: 0px;
+  margin-bottom: 1rem;
+  font-weight: 200;
+  font-size: 3rem;
 }
 h1.post-title a{
   text-decoration: none;
@@ -82,7 +85,9 @@ h1.post-title a{
   font-size: 0.8rem;
   color: rgba(0, 0, 0, 0.6);
   text-transform: uppercase;
-  ;
+}
+.post-meta .fa {
+  display: none;
 }
 .post-meta-item {
   margin-right: 10px;
@@ -95,7 +100,9 @@ h1.post-title a{
 .post-more-link {
   margin-top: 0px;
 }
-
+.btn-secondary {
+    border-color: #fef281;
+}
 pre code {
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
 }
@@ -148,6 +155,7 @@ iframe {
 }
 .widget a {
   text-decoration: none;
+  color: #333;
 }
 .widget ul ul, .widget ol ul, .widget dl ul, .widget ul ol, .widget ol ol, .widget dl ol, .widget ul dl, .widget ol dl, .widget dl dl {
   margin-left: 15px;
@@ -171,7 +179,7 @@ iframe {
 }
 .widget ul:not(#recent-post) li a:before, .widget ol:not(#recent-post) li a:before {
   color: #ccc;
-  content: "\f0da";
+  // content: "\f0da";
   font-size: 0.8rem;
   margin-right: 6px;
   font-family: FontAwesome;
@@ -209,8 +217,10 @@ iframe {
   position: relative;
   overflow: hidden;
 }
-
-
+.card-title {
+  color: #333;
+  font-weight: 200;
+}
 .thumbnail-image {
   width: 100%;
   height: 100%;
@@ -243,6 +253,7 @@ iframe {
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
   transition: all 0.2s ease;
+  color: #333;
 }
 
 #recent-post li:hover .item-thumbnail {
