@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,100);
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,700);
 
 body {
-  font-family: "Roboto", "Open Sans", "Sans Serif", "Georgia", "Times New Roman", Times, serif;
+  font-family: "Raleway", "Open Sans", "Sans Serif", "Georgia", "Times New Roman", Times, serif;
   /* Margin bottom by footer height */
   margin-bottom: 100px;
   line-height: 1.6;
@@ -15,6 +15,33 @@ html {
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a { 
+  color: #656b88; 
+}
+
+.bg-faded {
+  background-color: #bbb8ba;
+}
+
+.nav {
+  float: right;
+}
+
+.navbar-light a.navbar-brand {
+  color: #fef281;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.navbar-light a.navbar-brand:hover {
+  color: #765932;
+}
+
+.navbar-light i {
+  display: none;
 }
 
 .footer {
