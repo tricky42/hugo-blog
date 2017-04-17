@@ -7,10 +7,13 @@ date = "2017-01-10"
 banner = "http://placehold.it/1024x200"
 draft = false
 +++
-
-
 # Introduction
-In this post I describe my journey to find a neat, small solution to finally setup a small webpage and blog solution for my self. I start first to look for a small CMS solution but all the PHP based solution reminded me that a) I dont like PHP and b) I wanted to also make sure, the resulting site is easy and cheap to host. Therefore I quickly refined my requirements to static site generators and as I want to make more use of Golang, I looked for a Go based solution. I very quickly found Hugo (https://gohugo.io/) and started reading about it and decided to give it a try ;) 
+In this post I describe my journey to find a neat, small solution to finally setup a small blog solution for my self. I start first to look for a small CMS / Blog solution but almost all the PHP based solution reminded me that 
+
+* a) I don't like PHP and 
+* b) I wanted to also make sure, the resulting site is easy and cheap to host. 
+ 
+Therefore I quickly refined my requirements to static site generators and as I want to make more use of Golang, I looked for a Go based solution. I very quickly found Hugo (https://gohugo.io/) and started reading about it and decided to give it a try ;) 
 
 # Installing Hugo
 The nice thing about Golang based solutions is that they are almost always are super easy to install. But even better, Hugo can be installed using Homebrew. In this post I will only cover all the steps which are needed to get Hugo setup on my Mac with Homebrew already installed. But I will include the links to the standard install documentation of Homebrew, Hugo and any other tool I am using in the link section.
