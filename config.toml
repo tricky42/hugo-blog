@@ -1,33 +1,44 @@
 baseurl = "https://www.bucksteeg.de/"
-languageCode = "en-us"
+languageCode = "en"
 title = "tricky42"
-theme = "hugo-bootstrap-tricky42"
+theme = "hugo-geo"
+relativeURLs = false
 canonifyurls = true
-paginate = 3
+paginate = 5
 googleAnalytics = "UA-89935545-1"
+pygmentsuseclasses = true
 
-[[menu.main]]
-    name = "RECOMMENDED"
-    pre = "<i class='fa fa-folder-open'></i>"
-    weight = -90
-    identifier = "recommended"
-    url = "/page/recommended/"    
+[params]
+    commit = "https://github.com/tricky42/hugo-geo/tree/"
+	showglobe = true
+	favicon = "favicon.ico"
+	analytics = "UA-89935545-1"
+	email = "andreas@bucksteeg.de"
+	profilepic = "images/hoodie.png"
+	title = "Andreas Bucksteeg"
+	subtitle = "pssst"
 
-[[menu.main]]
-    name = "ABOUT ME"
-    pre = "<i class='fa fa-info-circle'></i>"
-    weight = -80
-    identifier = "about-me"
-    url = "/page/about-me/"
-
-[[menu.footer]]
-    name = "DISCLAIMER"
-    weight = -110
-    identifier = "disclaimer"
-    url = "/page/disclaimer/"
-
-[params.widgets]
-  recent_articles = true
-  categories = false
-  tags = true
-  tag_cloud = false
+	# Social buttons for sidebar
+	# Each of these are optional
+	[[params.socialbuttons]]
+	faicon = "github"
+	url = "https://github.com/tricky42"
+	[[params.socialbuttons]]
+	faicon = "twitter"
+	url = "https://twitter.com/trigods"
+	[[params.socialbuttons]]
+	faicon = "linkedin"
+	url = "https://www.linkedin.com/in/andreas-bucksteeg-b3482b7/"
+	[[params.socialbuttons]]
+	
+	[[params.navlinks]]
+	name = "About Me"
+	url = "page/about-me"
+	
+	[[params.navlinks]]
+	name = "Blog"
+	url = ""
+	
+	[[params.navlinks]]
+	name = "Tajik 2017"
+	url = "/page/tr2017/"
