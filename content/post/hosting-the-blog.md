@@ -1,5 +1,5 @@
 +++
-title = "Publishing the blog!"
+title = "Hosting the blog!"
 tags = ["s3","aws"]
 categories = ["automation"]
 date = "2017-01-20"
