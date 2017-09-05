@@ -1,0 +1,14 @@
+language: go
+before_install:
+- pip install --user awscli
+- export PATH=$PATH:$HOME/.local/bin
+install: 
+- go get -v github.com/spf13/hugo
+script:
+- hugo
+- eval $(aws s3 sync --acl "public-read" --sse "AES256" public/ s3://$BUCKET_NAME/ --exclude 'images' --exclude 'js' --exclude 'css' --exclude 'less' --exclude 'css'  --delete)
+- eval $(aws s3 sync --cache-control "max-age=2592000" --acl "public-read" --sse "AES256"  --delete public/ s3://$BUCKET_NAME/ --exclude "*" --include 'images' --include 'js' --include 'css' --include 'less' --include 'css' --delete)
+- eval $(aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths "/*")
+notifications:
+    email:
+        on_failure: always
