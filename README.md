@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tricky42/hugo-blog.svg?branch=master)](https://travis-ci.org/tricky42/hugo-blog)
+
 # hugo-blog
 ## Install hugo (Mac OS X)
 ```
