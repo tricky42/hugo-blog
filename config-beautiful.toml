@@ -9,7 +9,7 @@ pygmentCodeFences = true
 googleAnalytics = "UA-89935545-1"
 
 [Params]
-  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = "random stuff in a random world"
   logo = "images/hoodie.jpg"
   favicon = "images/favicon.ico"
   dateFormat = "January 2, 2006"
@@ -48,14 +48,20 @@ googleAnalytics = "UA-89935545-1"
     weight = 1
 
 [[menu.main]]
-    name = "About"
-    url = "page/about-me/"
-    weight = 3
+    identifier = "sparetime"
+    name = "Spare Time"
+    weight = 4
 
 [[menu.main]]
+    parent = "sparetime"
     name = "Tajik 2017"
     url = "page/tr2017/"
-    weight = 4
+    weight = 1
+
+[[menu.main]]
+    parent = "sparetime"
+    name = "Video Editing"
+    weight = 2
 
 [[menu.main]]
     identifier = "technology"
@@ -67,6 +73,11 @@ googleAnalytics = "UA-89935545-1"
     name = "Recommeded Projects"
     url = "page/recommended"
     weight = 1
+
+[[menu.main]]
+    name = "About Me"
+    url = "page/about-me/"
+    weight = 9
 
 [[menu.main]]
     name = "Tags"
