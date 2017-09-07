@@ -1,0 +1,74 @@
+baseurl = "https://www.bucksteeg.de"
+DefaultContentLanguage = "en"
+title = "Randomized"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+#disqusShortname = "XXX"
+googleAnalytics = "UA-89935545-1"
+
+[Params]
+  subtitle = "Build a beautiful and simple website in minutes"
+  logo = "images/hoodie.jpg"
+  favicon = "images/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = "https://github.com/tricky42/hugo-blog/tree/"
+  rss = true
+  comments = true
+  gcse = "004921083700178838723:8lfnzaynkhy" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+[Author]
+  name = "Andreas Bucksteeg"
+  website = "https://www.bucksteeg.de"
+  email = "andreas@bucksteeg.de"
+  facebook = "andreas.bucksteeg"
+  #googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "tricky42"
+  gitlab = "tricky42"
+  twitter = "trigods"
+  #reddit = "username"
+  linkedin = "andreas-bucksteeg-b3482b7"
+  #xing = "username"
+  stackoverflow = "users/tricky42/username"
+  #snapchat = "username"
+  #instagram = "username"
+  #youtube = "user/username" # or channel/channelname
+  #soundcloud = "username"
+  #spotify = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #paypal = "username"
+  #telegram = "username"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about-me/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tajik 2017"
+    url = "page/tr2017/"
+    weight = 4
+
+[[menu.main]]
+    identifier = "technology"
+    name = "Technology"
+    weight = 5
+
+[[menu.main]]
+    parent = "technology"
+    name = "Recommeded Projects"
+    url = "page/recommended"
+    weight = 1
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 10
