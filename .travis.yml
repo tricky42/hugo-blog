@@ -5,6 +5,9 @@ before_install:
 install: 
 - go get -v github.com/spf13/hugo
 script:
+- GIT_COMMIT_SHA=$(git rev-parse --verify HEAD) 
+- GIT_COMMIT_SHA_SHORT=$(git rev-parse --short HEAD)
+- echo "SHA_SHORT: $GIT_COMMIT_SHA_SHORT - SHA: $GIT_COMMIT_SHA"
 - hugo
 - aws configure set preview.cloudfront true
 - aws s3 sync --acl "public-read" --sse "AES256" public/ s3://$BUCKET_NAME/ --exclude "images" --exclude "js" --exclude "css" --exclude "less" --exclude "css" --exclude "tr2017/*"  --delete

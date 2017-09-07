@@ -1,8 +1,8 @@
 +++
 title = "Work in progress...."
 description = ""
-tags = ["intro","no content","welcome"]
-categories = ["blogging"]
+tags = ["traveling"]
+categories = ["traveling"]
 date = "2017-09-04"
 draft = false
 +++

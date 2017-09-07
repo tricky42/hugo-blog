@@ -1,3 +1,9 @@
 [submodule "themes/hugo-geo"]
 	path = themes/hugo-geo
 	url = https://github.com/tricky42/hugo-geo.git
+[submodule "themes/beautifulhugo"]
+	path = themes/beautifulhugo
+	url = https://github.com/tricky42/beautifulhugo.git
+[submodule "themes/minimal"]
+	path = themes/minimal
+	url = https://github.com/tricky42/minimal.git
