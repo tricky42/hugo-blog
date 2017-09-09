@@ -17,7 +17,7 @@ The blog will not be limited to software topics, I might add my learnings about 
 I will begin with some posts on the setup of this blog. Using Wordpress didn't feel right for different reasons: 
     I do not like PHP (although there are impressive products built using PHP (like Wordpress)), I dont't like the resources and money needed to host my small blog using such a solution 
 
-Therefore, I started my search for a solution more in line with my preferences. You can read more about it <a href='{{< relref "page/setting-up-the-blog.md" >}}'>here</a>.
+Therefore, I started my search for a solution more in line with my preferences. You can read more about it <a href='{{< relref "post/setting-up-the-blog.md" >}}'>here</a>.
 
 Cheers,
 
