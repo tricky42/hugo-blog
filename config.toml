@@ -1,4 +1,4 @@
-baseurl = "https://www.bucksteeg.de"
+baseurl = "https://www.bucksteeg.de/"
 DefaultContentLanguage = "en"
 title = "Randomized"
 theme = "beautifulhugo"
