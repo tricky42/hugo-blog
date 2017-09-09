@@ -6,9 +6,9 @@ categories = ["traveling"]
 date = "2017-09-04"
 draft = false
 +++
-Pretty much the complete page is still under heavy development... I started to work on this blog during my sabbatical and the long journeys in the bus in Laos and Cambodia. But after that there was less time or other distractions therefore I never really officially finished the page to a point I was happy with. 
+The entire page is still under heavy development... I started this blog during my sabbatical while taking long bus journeys through Laos and Cambodia. But, once I returned home, there was never enough time or I got distracted with other things. So I never brought the page to a final look that I was happy with. 
 
-But as I now use parts of the page to host the <a href='{{< relref "page/tr2017.md" >}}'>Tajik 2017 Timelapse Video</a> at least you should know it is pretty much work in slow progress ;)
+Now that I decided to use parts of the page to host the <a href='{{< relref "page/tr2017.md" >}}'>Tajik 2017 Timelapse Video</a> I just wanted you to know that it is pretty much "work in _slow_ progress" ;)
 
 Cheers,
 
