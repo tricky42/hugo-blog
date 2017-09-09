@@ -1,7 +1,7 @@
 +++
 title = "Work in progress...."
 description = ""
-tags = ["traveling"]
+tags = ["tajik2017"]
 categories = ["traveling"]
 date = "2017-09-04"
 draft = false
