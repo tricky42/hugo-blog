@@ -8,13 +8,16 @@ banner = "assets/images/logo-post-welcome.jpg"
 draft = false
 +++
  
-The answer might be yes;) In the end I just felt that in order to stay somewhat on top of all developments in the software space I had to invest quite some time after work. Talking and discussing about the things I learned to colleagues at work was fun and helped but still a lot of the knowledge got lost or didn't reach enough people. Therefore I will now try to post from time to time about the things I learn and point you to interesting articles, presentations and projects. 
+The answer might be yes;) In the end I just felt that - in order to stay somewhat on top of all developments in the software space -I had to invest some time after work. Talking to colleagues about the things I learned was fun and helped, but a lot of information got lost or didn't reach as many people as I would have liked. So I decided to post from time to time about things I learn and use this blog to point you to articles, presentations and projects. 
 
-It will be interesting to see how I get started during my "small" sabbatical and even more interesting if I can sustain publishing posts once reality hits and I am back at work ;) 
+It will be interesting to see how I get started during my _small_, one week sabbatical. And even more interesting, if I can continue posting once reality hits and I am back at work ;) 
 
-The blog will not be limited to software topics, I might add in my learnings about the Mavic Pro, great wines and who knows what else...
+The blog will not be limited to software topics, I might add my learnings about Mavic Pro, great wine and who knows what else...
 
-I will begin with some posts on the setup of this post, as just taking a hosted Wordpress blog didn't sound right out of different reasons. I do not like PHP (although there are impressive products built using PHP (like Wordpress)), I didn't like the resources and money needed to host my small blog using such a solutions and there for started my search for a better fitting solution more in line with my preferences. 
+I will begin with some posts on the setup of this blog. Using Wordpress didn't feel right for different reasons: 
+    I do not like PHP (although there are impressive products built using PHP (like Wordpress)), I dont't like the resources and money needed to host my small blog using such a solution 
+
+Therefore, I started my search for a solution more in line with my preferences. You can read more about it here <a href='{{< relref "page/setting-up-the-blog.md" >}}.
 
 Cheers,
 
